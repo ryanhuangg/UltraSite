@@ -127,13 +127,13 @@ h3 {
 	
 	.sidebar li a.active {
 		opacity: 1;
-		background-color: #f1f1f1;
+		background-color: #ffffff;
 	}
 	
 	.sidebar li a:hover:not(.active) {
 		transition: all 0.3s;
 		opacity: 1;
-		background-color: #f1f1f1;
+		background-color: #ffffff;
 	}
 	
 	.sidebar li a:not(:hover):not(.active) {
@@ -150,7 +150,7 @@ h3 {
 		text-decoration: none;
 	}
 	body {
-		background-color: #f1f1f1;
+		background-color: #ffffff;
 		padding-top: 70px;
 		padding-bottom: 90px;
 		position: relative;
@@ -202,7 +202,12 @@ h3 {
 	}
 
 	.footer a:hover{
-		color: #ad8222;
+		color: #0a44ff;
+		transition: all 0.3s;
+	}
+
+	.footer a:active{
+		color: #ffffff;
 		transition: all 0.3s;
 	}
 
@@ -214,7 +219,7 @@ h3 {
 		left: 0;
 		bottom: 0;
 		height: 70px;
-		background-color: #d9d9d9;
+		background-color: #eeeeee;
 		color: #252839;
 		text-align: center;
 		font-size: 14px;
@@ -223,55 +228,64 @@ h3 {
 	}
 	
 	.header {
-		background-color: #d9d9d9;
+		background-color: #eeeeee;
 		color: #252839;
 		position: fixed;
-		height: 50px;
+		height: 80px;
 		top: 0;
 		left: 0;
 		width:100%;
 		padding: 9px;
 		background-image: url("logo.png");
 		background-repeat: no-repeat;
-		background-size: 155px;
+		background-size: 220px;
 	}
 	
 	.sidebar {
 		list-style-type: none;
 		margin: 0;
-		margin-top: -29px;
+		margin-top: 1px;
 		margin-left: 0px;
 		padding: 0;
 		width: 155px;
-		background-color: #d9d9d9;
+		background-color: #eeeeee;
 		height: 100%;
 		top: 1;
 		left: 0;
 		position: fixed;
+		z-index: 1;
 	}
 	
 	li a.tab {
 		cursor: pointer;
 		display: block;
+		z-index: 1;
 	}
 	
 	li a.active {
 		transform: translateX(8px);
 		opacity: 1;
-		background-color: #f1f1f1;
+		background-color: #ffffff;
+		z-index: 1;
 	}
 	
 	li a:hover:not(.active) {
 		transition: all 0.3s;
 		transform: translateX(8px);
 		opacity: 1;
-		background-color: #f1f1f1;
+		background-color: #84a1ff;
+		z-index: 1;
+	}
+	
+	li a:hover:not(.active):active {
+		color: #ffffff;
 	}
 	
 	li a:not(:hover):not(.active) {
 		transition: transform 0.3s, background-color 0.3s;
 		transform: translateX(0px);
-		background-color: #d9d9d9;
+		background-color: #eeeeee;
+		z-index: 1;
 	}
 	
 	.sidebar a {
@@ -280,13 +294,15 @@ h3 {
 		color: #252839;
 		display: block;
 		text-decoration: none;
+		z-index: 1;
 	}
 	
 	body {
-		background-color: #f1f1f1;
+		background-color: #ffffff;
 		padding-left: 210px;
 		padding-top: 70px;
 		padding-bottom: 80px;
+		z-index: 2;
 	}
 	
 	.bodytext {
@@ -296,10 +312,14 @@ h3 {
 		margin-top: 10px;
 		margin-right: 10%;
 		z-index: 1;
+		z-index: 2;
 	}
 }
 
 
+::-webkit-scrollbar { 
+	display: none; 
+}
 
 .bodytext a {
 	color:#6161de;
@@ -315,6 +335,6 @@ h3 {
 
 hr {
 	background-color: #ad8222;
-	height:1px;
+	height:2px;
 	border: 0px;
 }
