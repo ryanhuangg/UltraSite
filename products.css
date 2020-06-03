@@ -1,0 +1,31 @@
+.glasscont {
+        width: 100%;
+        text-align: center;
+}
+
+.glasscont img {
+    max-height: 300px;
+}
+
+.diff {
+    float:right;
+    
+}
+
+.diff img {
+    max-height: 230px;
+}
+
+.innertitle {
+	margin-top: -10px;
+	padding-top: 0px;
+	color: #ad8222;
+	font-size: 22px;
+}
+
+.subtitle {
+	margin-top: 0px;
+	padding-top: 0px;
+	color: #000000;
+	font-size: 18px;
+}
