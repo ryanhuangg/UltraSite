@@ -1,7 +1,10 @@
+@font-face { font-family: "roboto-regular"; 
+	src: url('font/Roboto-Regular.ttf'); } 
+
 html{
   position: relative; 
   min-height: 100%;
-  font-family: Helvetica;
+  font-family: "roboto-regular";
 }
 
 
