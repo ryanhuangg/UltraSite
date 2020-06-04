@@ -42,8 +42,9 @@ h3 {
 
 @media (max-width: 1000px) {
 
-	html, body {
-		min-height: 100%;
+	body {
+		
+		min-height: 100vh;
 	}
 	
 	.button {
@@ -515,7 +516,7 @@ h3 {
 }
 
 hr {
-	background-color: #ad8222;
+	background-color: #8D6E63;
 	height:2px;
 	border: 0px;
 }

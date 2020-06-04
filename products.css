@@ -1,11 +1,30 @@
-.glasscont {
-        width: 100%;
-        text-align: center;
+.glasscont1{
+	display: flex;
+  	flex-wrap: nowrap;
+	justify-content: center;
+	width: 50%;
+	max-width: 50%;
+	float:left;
 }
 
-.glasscont img {
-    max-height: 300px;
+.glasscont2{
+	display: flex;
+  	flex-wrap: nowrap;
+	justify-content: center;
+	width: 50%;
+	max-width: 50%;
 }
+
+.image {
+	display: inline-block;
+	height: 250px;
+	text-align: center;
+}
+
+.image img{
+	max-height: 100%;
+}
+
 
 .diff {
     float:right;
@@ -13,14 +32,15 @@
 }
 
 .diff img {
-    max-height: 230px;
+	max-height: 230px;
+	
 }
 
 .innertitle {
 	margin-top: -10px;
 	padding-top: 0px;
-	color: #ad8222;
-	font-size: 22px;
+	color: #8D6E63;
+	font-size: 20px;
 }
 
 .subtitle {
@@ -28,4 +48,19 @@
 	padding-top: 0px;
 	color: #000000;
 	font-size: 18px;
+}
+
+
+.doublebox {
+	width: 100%;
+	overflow:hidden;
+}
+
+.leftbox {
+	float: left;
+	width: 50%;
+}
+
+.rightbox{
+	margin-left: 50%;
 }
