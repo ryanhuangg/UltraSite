@@ -28,12 +28,18 @@
 
 .diff {
     float:right;
-    
 }
 
 .diff img {
-	max-height: 230px;
+	max-height: 250px;
 	
+}
+
+@media (max-width: 1000px){
+	.diff img {
+		max-height: 650px;
+		
+	}
 }
 
 .innertitle {
