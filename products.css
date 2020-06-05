@@ -56,6 +56,11 @@
 	overflow:hidden;
 }
 
+.doublebox a {
+	font-size: 24px;
+	
+}
+
 .leftbox {
 	float: left;
 	width: 50%;

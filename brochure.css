@@ -1,0 +1,97 @@
+#xy {
+    background-image: url("assets/brochure/xinyi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#agc {
+    background-image: url("assets/brochure/agc.jpg");
+    background-repeat: no-repeat;
+
+}
+
+#c63 {
+    background-image: url("assets/brochure/63.jpg");
+    background-repeat: no-repeat;
+
+}
+
+#c73 {
+    background-image: url("assets/brochure/73.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.image {
+	display: inline-block;
+	height: 250px;
+	text-align: center;
+}
+
+.image img{
+	max-height: 100%;
+}
+
+
+.diff {
+    float:right;
+    
+}
+
+.diff img {
+	max-height: 230px;
+	
+}
+
+.innertitle {
+	margin-top: -10px;
+	padding-top: 0px;
+	color: #8D6E63;
+	font-size: 20px;
+}
+
+.subtitle {
+	margin-top: 0px;
+	padding-top: 0px;
+	color: #000000;
+	font-size: 18px;
+}
+
+
+.doublebox {
+	width: 100%;
+    overflow:hidden;
+    text-align:center;
+    
+}
+
+.doublebox a {
+	font-size: 24px;
+    color:#FFFFFF;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.doublebox a:hover {
+	transition: all 0.3s;
+    
+}
+
+.leftbox {
+	float: left;
+    width: 50%;
+    height: 250px;
+    line-height: 250px;
+}
+
+.rightbox{
+    margin-left: 50%;
+    height: 250px;
+    line-height: 250px;
+}
