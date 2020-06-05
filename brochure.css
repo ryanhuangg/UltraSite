@@ -1,7 +1,6 @@
 #xy {
     background-image: url("assets/brochure/xinyi.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #agc {
@@ -88,10 +87,12 @@
     width: 50%;
     height: 250px;
     line-height: 250px;
+    background-size: cover;
 }
 
 .rightbox{
     margin-left: 50%;
     height: 250px;
     line-height: 250px;
+    background-size: cover;
 }

@@ -64,8 +64,10 @@
 .leftbox {
 	float: left;
 	width: 50%;
+	padding: 15px 15px 15px 15px;
 }
 
 .rightbox{
 	margin-left: 50%;
+	padding: 15px 15px 15px 15px;
 }
