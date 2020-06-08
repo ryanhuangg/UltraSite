@@ -79,6 +79,11 @@
 }
 
 .tabletitle {
+	font-size: 18px;
+	color: #000000;
+}
+
+.text {
 	font-size: 16px;
 	color: #000000;
 }
