@@ -231,8 +231,13 @@ h3 {
   		left: 50%;
 		transform: translate(-50%, -50%);
 		opacity: 1;
-		font-size: 32px;
+		font-size: 50px;
 		color:#00218d;
+		text-shadow:
+			-1px -1px 0 #ffffff,
+			1px -1px 0 #ffffff,
+			-1px 1px 0 #ffffff,
+			1px 1px 0 #ffffff;  
 		
 	}
 
