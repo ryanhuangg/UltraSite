@@ -32,8 +32,8 @@ h3 {
 	left: 0;
 	bottom: 0;
 	height: 60px;
-	background-color: #d9d9d9;
-	color: #252839;
+	background-color: #1a1a1a;
+	color: #d9d9d9;
 	text-align: center;
 	font-size: 16px;
 	z-index: 0;
@@ -66,14 +66,14 @@ h3 {
 	.footer a {
 		margin-top: 8px;
 		margin-bottom: 0px;
-		color: #252839;
+		color: #d9d9d9;
 		display: inline-block;
 		text-decoration: none;
 		font-size: 8px;
 	}
 
 	.footer a:hover{
-		color: #ad8222;
+		color: #83a0ff;
 		transition: all 0.3s;
 	}
 
@@ -86,8 +86,8 @@ h3 {
 		margin: 0;
 		bottom: 0;
 		height: 70px;
-		background-color: #d9d9d9;
-		color: #252839;
+		background-color: #1a1a1a;
+		color: #d9d9d9;
 		text-align: center;
 		font-size: 14px;
 		z-index: 0;
@@ -263,7 +263,7 @@ h3 {
 	.footer a {
 		margin-top: 8px;
 		margin-bottom: 0px;
-		color: #252839;
+		color: #d9d9d9;
 		display: inline-block;
 		text-decoration: none;
 		font-size: 8px;
@@ -274,7 +274,7 @@ h3 {
 	}
 
 	.footer a:hover{
-		color: #0a44ff;
+		color: #83a0ff;
 		transition: all 0.3s;
 	}
 
@@ -291,8 +291,8 @@ h3 {
 		left: 0;
 		bottom: 0;
 		height: 70px;
-		background-color: #eeeeee;
-		color: #252839;
+		background-color: #1a1a1a;
+		color: #d9d9d9;
 		text-align: center;
 		font-size: 14px;
 		z-index: 0;
