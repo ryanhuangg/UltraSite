@@ -82,6 +82,7 @@
 .tabletitle {
 	font-size: 18px;
 	color: #000000;
+	font-weight: bold;
 }
 
 .text {
@@ -100,6 +101,7 @@
 		padding-top: 0px;
 		color: #9FA8DA;
 		font-size: 20px;
+		font-weight: bold;
 	}
 
 	.subtitle, .text {
