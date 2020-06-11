@@ -486,7 +486,7 @@ h3 {
 }
 
 .bodytext a:hover {
-	color:#f2b632;
+	color:#c6d3ff;
 }
 
 .bodytext a:active {
@@ -494,7 +494,7 @@ h3 {
 }
 
 hr {
-	background-color: #8D6E63;
+	background-color: #000cb4;
 	height:2px;
 	border: 0px;
 }

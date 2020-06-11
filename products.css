@@ -23,6 +23,7 @@
 
 .image img{
 	max-height: 100%;
+	max-width: 100%;
 }
 
 
@@ -45,7 +46,7 @@
 .innertitle {
 	margin-top: -10px;
 	padding-top: 0px;
-	color: #8D6E63;
+	color: #000cb4;
 	font-size: 20px;
 }
 
