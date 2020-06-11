@@ -338,6 +338,7 @@ h3 {
 	.header ul {
 		list-style-type: none;
 		margin: 0;
+		margin-right: 5px;
 	}
 
 	.navbar {
@@ -353,7 +354,7 @@ h3 {
 		display: block;
 		text-decoration: none;
 		z-index: 1;
-		border-radius: 3px;
+		border-radius: 0px;
 	}
 	
 	
