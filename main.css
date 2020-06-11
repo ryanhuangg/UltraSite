@@ -317,7 +317,7 @@ h3 {
 	}
 	
 	.header {
-		background-color: #eeeeee;
+		background-color: #ececec;
 		color: #252839;
 		position: fixed;
 		height: 80px;
@@ -348,7 +348,7 @@ h3 {
 		padding: 10px 10px 10px 10px;
 		margin-right: 10px;
 		font-size: 16px;
-		color: #252839;
+		color: #ffffff;
 		display: block;
 		text-decoration: none;
 		z-index: 1;
@@ -371,6 +371,7 @@ h3 {
 	.header li a.active {
 		opacity: 1;
 		background-color: #ffffff;
+		color: #000000;
 		z-index: 1;
 	}
 
@@ -398,7 +399,7 @@ h3 {
 	.header li a:not(:hover):not(.active) {
 		transition: transform 0.3s, background-color 0.3s;
 		transform: translateY(0px);
-		background-color: #c6d3ff;
+		background-color: #30475e;
 		z-index: 1;
 	}
 	
@@ -471,7 +472,6 @@ h3 {
 		min-width: 100%;
 		max-width: 100%;
 	}
-
 	
 }
 
@@ -505,9 +505,20 @@ hr {
 		color: #ffffffcc;
 	}
 
+	.header {
+		background-color: #ececec;
+	}
+
+	.header li a:not(:hover):not(.active) {
+		background-color: #30475e;
+		color: #ffffff;
+	}
+
 	.body {
 		background-color: #121212;
 	}
+
+
 
 	hr {
 		background-color: #9FA8DA;
