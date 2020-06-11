@@ -49,14 +49,14 @@ h3 {
 	
 	.button {
 		background-color: #ececec;
-		padding: 40px;
+		padding: 50px;
 		border: black;
 		position: fixed;
 		margin-left: 0px;
-		margin-top: 5px;
+		margin-top: 0px;
 		background-image: url("button.png");
 		background-repeat: no-repeat;
-		background-size: 80px;
+		background-size: 100px;
 	}
 
 	.signoff{
@@ -125,7 +125,7 @@ h3 {
 		min-width: 100%;
 		list-style-type: none;
 		margin: 0;
-		margin-top: 85px;
+		margin-top: 100px;
 		padding: 0;
 		width: 500px;
 		background-color: #d9d9d9;
@@ -509,17 +509,15 @@ hr {
 		background-color: #ececec;
 	}
 
-	@media (min-width: 1000px) {
-		.header li a:not(:hover):not(.active) {
-			background-color: #30475e;
-			color: #ffffff;
-		}
-		
-		.header li a.active {
-			background-color: #30475e2e;
-		}
-		
+	.header li a:not(:hover):not(.active) {
+		background-color: #30475e;
+		color: #ffffff;
 	}
+		
+	.header li a.active {
+		background-color: #30475e2e;
+	}
+
 
 	.body {
 		background-color: #121212;

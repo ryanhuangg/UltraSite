@@ -96,3 +96,9 @@
     line-height: 250px;
     background-size: cover;
 }
+
+@media (prefers-color-scheme: dark) {
+    #xy, #c63, #c73, #agc {
+        opacity: 0.85;
+    }
+}
