@@ -10,3 +10,18 @@ hr {
 	height:2px;
 	border: 0px;
 }
+
+@media (prefers-color-scheme: dark) {
+	
+
+	.innertitle {
+		color: #9FA8DA;
+	}
+
+	hr {
+		background-color: #9FA8DA;
+	}
+
+	
+
+}

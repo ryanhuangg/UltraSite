@@ -87,3 +87,20 @@
 	font-size: 16px;
 	color: #000000;
 }
+
+@media (prefers-color-scheme: dark) {
+	.tabletitle {
+		color: #ffffff;
+	}
+
+	.innertitle {
+		margin-top: -10px;
+		padding-top: 0px;
+		color: #9FA8DA;
+		font-size: 20px;
+	}
+
+	.subtitle, .text {
+		color: #ffffffcc;
+	}
+}
