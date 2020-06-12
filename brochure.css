@@ -102,9 +102,18 @@
     height: 300px;
     margin: 0 auto;
     text-align: center;
-    background-image: url("assets/brochure/73.jpg");
     line-height: 300px;
     background-size: cover;
+}
+
+#broch {
+    
+    background-image: url("assets/brochure/brochure.jpg");
+}
+
+#skyview {
+    
+    background-image: url("assets/brochure/skyview.jpg");
 }
 
 .centerbox a {
