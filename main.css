@@ -403,6 +403,7 @@ h3 {
 		transform: translateY(8px);
 		z-index: 1;
 	}
+
 	
 	.header li a:hover:not(.active) {
 		transition: all 0.3s;
@@ -413,7 +414,8 @@ h3 {
 	}
 	
 	.header li a:hover:not(.active):active {
-		color: #ffffff;
+		background-color: #ffffff;
+		color: #ececec;
 	}
 	
 	.header li a:not(:hover):not(.active) {
