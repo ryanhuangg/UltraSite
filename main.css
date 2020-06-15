@@ -262,7 +262,7 @@ h3 {
 
 	@media (prefers-color-scheme: dark) {
 		body{
-			background-color: #121212;
+			background-color: #242424;
 		}
 	}
 
@@ -490,7 +490,7 @@ h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #121212;
+	background-color: #242424;
   }
 
 .bodytext a {
@@ -517,7 +517,7 @@ hr {
 
 @media (prefers-color-scheme: dark) {
 	.bodytext {
-		background-color: #121212;
+		background-color: #242424;
 		color: #ffffffcc;
 	}
 
@@ -536,7 +536,7 @@ hr {
 
 
 	.body {
-		background-color: #121212;
+		background-color: #242424;
 	}
 
 
@@ -563,7 +563,7 @@ hr {
 	}
 
 	html{
-		background-color: #121212;
+		background-color: #242424;
 		
 	}
 
