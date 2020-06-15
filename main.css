@@ -2,6 +2,8 @@ html{
   position: relative; 
   min-height: 100%;
   font-family: Helvetica;
+  overflow-y:overlay;
+  overflow-x:hidden;
 }
 
 
@@ -331,6 +333,7 @@ h3 {
 		background-repeat: no-repeat;
 		background-size: 220px;
 		z-index: 1;
+		width: 100vw;
 	}
 	
 
@@ -427,6 +430,7 @@ h3 {
 		padding-bottom: 60px;
 		margin-right: 0%;
 		z-index: 2;
+		
 	}
 
 	.mobile {
@@ -447,6 +451,7 @@ h3 {
 		
 		overflow: hidden;
 		z-index: 0;
+		width: 100vw;
 	}
 	
 
@@ -480,11 +485,20 @@ h3 {
 
 
 ::-webkit-scrollbar {
-	display: none;
+	display: block;
+	background: transparent;
 }
+
+::-webkit-scrollbar-thumb {
+	background-color: #121212;
+  }
 
 .bodytext a {
 	color:#6161de;
+}
+
+.doublebox a {
+	color:#ffffff;
 }
 
 .bodytext a:hover {
@@ -550,5 +564,10 @@ hr {
 
 	html{
 		background-color: #121212;
+		
 	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: #cecece;
+	  }
 }

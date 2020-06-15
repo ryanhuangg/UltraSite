@@ -21,6 +21,18 @@
 
 }
 
+#brochure {
+    background-image: url("assets/brochure/skyview.jpg");
+    background-repeat: no-repeat;
+
+}
+
+#contact {
+    background-image: url("assets/brochure/cont.jpg");
+    background-repeat: no-repeat;
+
+}
+
 .image {
 	display: inline-block;
 	height: 250px;
